@@ -25,6 +25,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+"Git stuff
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 syntax on
